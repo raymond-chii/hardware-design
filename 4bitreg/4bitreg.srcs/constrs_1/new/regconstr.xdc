@@ -1,0 +1,27 @@
+set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets clk]
+
+set_property IOSTANDARD LVCMOS18 [get_ports clk]
+set_property IOSTANDARD LVCMOS18 [get_ports reset]
+set_property IOSTANDARD LVCMOS18 [get_ports load]
+set_property IOSTANDARD LVCMOS18 [get_ports {data_in[0]}]
+set_property IOSTANDARD LVCMOS18 [get_ports {data_in[1]}]
+set_property IOSTANDARD LVCMOS18 [get_ports {data_in[2]}]
+set_property IOSTANDARD LVCMOS18 [get_ports {data_in[3]}]
+
+set_property IOSTANDARD LVCMOS33 [get_ports {data_out[0]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {data_out[1]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {data_out[2]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {data_out[3]}]
+
+set_property PACKAGE_PIN F21 [get_ports clk]
+set_property PACKAGE_PIN F22 [get_ports reset]
+set_property PACKAGE_PIN G22 [get_ports load]
+set_property PACKAGE_PIN H19 [get_ports {data_in[0]}]
+set_property PACKAGE_PIN H18 [get_ports {data_in[1]}]
+set_property PACKAGE_PIN H17 [get_ports {data_in[2]}]
+set_property PACKAGE_PIN M15 [get_ports {data_in[3]}]
+
+set_property PACKAGE_PIN V22 [get_ports {data_out[0]}]
+set_property PACKAGE_PIN W22 [get_ports {data_out[1]}]
+set_property PACKAGE_PIN U19 [get_ports {data_out[2]}]
+set_property PACKAGE_PIN U14 [get_ports {data_out[3]}]
