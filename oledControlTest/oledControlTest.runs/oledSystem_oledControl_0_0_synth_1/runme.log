@@ -1,0 +1,463 @@
+
+*** Running vivado
+    with args -log oledSystem_oledControl_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source oledSystem_oledControl_0_0.tcl
+
+
+****** Vivado v2019.1 (64-bit)
+  **** SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+  **** IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source oledSystem_oledControl_0_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/afs/ee.cooper.edu/user/l/lei.chi/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/xilinx/Vivado/2019.1/data/ip'.
+Command: synth_design -top oledSystem_oledControl_0_0 -part xc7z020clg484-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 18911 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1664.879 ; gain = 153.688 ; free physical = 1764 ; free virtual = 21503
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'oledSystem_oledControl_0_0' [/afs/ee.cooper.edu/user/l/lei.chi/oledControlTest/oledControlTest.srcs/sources_1/bd/oledSystem/ip/oledSystem_oledControl_0_0/synth/oledSystem_oledControl_0_0.v:56]
+INFO: [Synth 8-6157] synthesizing module 'oledControl_v1_0' [/afs/ee.cooper.edu/user/l/lei.chi/oledControlTest/oledControlTest.srcs/sources_1/bd/oledSystem/ipshared/a13a/hdl/oledControl_v1_0.v:4]
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'oledControl_v1_0_S00_AXI' [/afs/ee.cooper.edu/user/l/lei.chi/oledControlTest/oledControlTest.srcs/sources_1/bd/oledSystem/ipshared/a13a/hdl/oledControl_v1_0_S00_AXI.v:4]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+	Parameter ADDR_LSB bound to: 2 - type: integer 
+	Parameter OPT_MEM_ADDR_BITS bound to: 1 - type: integer 
+INFO: [Synth 8-226] default block is never used [/afs/ee.cooper.edu/user/l/lei.chi/oledControlTest/oledControlTest.srcs/sources_1/bd/oledSystem/ipshared/a13a/hdl/oledControl_v1_0_S00_AXI.v:398]
+INFO: [Synth 8-6157] synthesizing module 'top' [/afs/ee.cooper.edu/user/l/lei.chi/oledControlTest/oledControlTest.srcs/sources_1/bd/oledSystem/ipshared/a13a/src/top.v:23]
+INFO: [Synth 8-6157] synthesizing module 'oledControl' [/afs/ee.cooper.edu/user/l/lei.chi/oledControlTest/oledControlTest.srcs/sources_1/bd/oledSystem/ipshared/a13a/src/oledControl.v:23]
+	Parameter IDLE bound to: 0 - type: integer 
+	Parameter DELAY bound to: 1 - type: integer 
+	Parameter INIT bound to: 32'b00000000000000000000000000000010 
+	Parameter RESET bound to: 3 - type: integer 
+	Parameter CHRG_PUMP bound to: 4 - type: integer 
+	Parameter CHRG_PUMP1 bound to: 5 - type: integer 
+	Parameter WAIT_SPI bound to: 6 - type: integer 
+	Parameter PRE_CHRG bound to: 7 - type: integer 
+	Parameter PRE_CHRG1 bound to: 8 - type: integer 
+	Parameter VBAT_ON bound to: 9 - type: integer 
+	Parameter CONTRAST bound to: 10 - type: integer 
+	Parameter CONTRAST1 bound to: 11 - type: integer 
+	Parameter SEG_REMAP bound to: 12 - type: integer 
+	Parameter SCAN_DIR bound to: 13 - type: integer 
+	Parameter COM_PIN bound to: 14 - type: integer 
+	Parameter COM_PIN1 bound to: 15 - type: integer 
+	Parameter DISPLAY_ON bound to: 16 - type: integer 
+	Parameter FULL_DISPLAY bound to: 17 - type: integer 
+	Parameter DONE bound to: 18 - type: integer 
+	Parameter PAGE_ADDR bound to: 19 - type: integer 
+	Parameter PAGE_ADDR1 bound to: 20 - type: integer 
+	Parameter PAGE_ADDR2 bound to: 21 - type: integer 
+	Parameter COLUMN_ADDR bound to: 22 - type: integer 
+	Parameter SEND_DATA bound to: 23 - type: integer 
+INFO: [Synth 8-155] case statement is not full and has no default [/afs/ee.cooper.edu/user/l/lei.chi/oledControlTest/oledControlTest.srcs/sources_1/bd/oledSystem/ipshared/a13a/src/oledControl.v:97]
+INFO: [Synth 8-6157] synthesizing module 'delayGen' [/afs/ee.cooper.edu/user/l/lei.chi/oledControlTest/oledControlTest.srcs/sources_1/bd/oledSystem/ipshared/a13a/src/delayGen.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'delayGen' (1#1) [/afs/ee.cooper.edu/user/l/lei.chi/oledControlTest/oledControlTest.srcs/sources_1/bd/oledSystem/ipshared/a13a/src/delayGen.v:23]
+INFO: [Synth 8-6157] synthesizing module 'spiControl' [/afs/ee.cooper.edu/user/l/lei.chi/oledControlTest/oledControlTest.srcs/sources_1/bd/oledSystem/ipshared/a13a/src/spiControl.v:23]
+	Parameter IDLE bound to: 0 - type: integer 
+	Parameter SEND bound to: 1 - type: integer 
+	Parameter DONE bound to: 2 - type: integer 
+INFO: [Synth 8-155] case statement is not full and has no default [/afs/ee.cooper.edu/user/l/lei.chi/oledControlTest/oledControlTest.srcs/sources_1/bd/oledSystem/ipshared/a13a/src/spiControl.v:75]
+INFO: [Synth 8-6155] done synthesizing module 'spiControl' (2#1) [/afs/ee.cooper.edu/user/l/lei.chi/oledControlTest/oledControlTest.srcs/sources_1/bd/oledSystem/ipshared/a13a/src/spiControl.v:23]
+INFO: [Synth 8-6157] synthesizing module 'charROM' [/afs/ee.cooper.edu/user/l/lei.chi/oledControlTest/oledControlTest.srcs/sources_1/bd/oledSystem/ipshared/a13a/src/charROM.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'charROM' (3#1) [/afs/ee.cooper.edu/user/l/lei.chi/oledControlTest/oledControlTest.srcs/sources_1/bd/oledSystem/ipshared/a13a/src/charROM.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'oledControl' (4#1) [/afs/ee.cooper.edu/user/l/lei.chi/oledControlTest/oledControlTest.srcs/sources_1/bd/oledSystem/ipshared/a13a/src/oledControl.v:23]
+WARNING: [Synth 8-689] width (8) of port connection 'sendData' does not match port width (7) of module 'oledControl' [/afs/ee.cooper.edu/user/l/lei.chi/oledControlTest/oledControlTest.srcs/sources_1/bd/oledSystem/ipshared/a13a/src/top.v:51]
+INFO: [Synth 8-6155] done synthesizing module 'top' (5#1) [/afs/ee.cooper.edu/user/l/lei.chi/oledControlTest/oledControlTest.srcs/sources_1/bd/oledSystem/ipshared/a13a/src/top.v:23]
+WARNING: [Synth 8-689] width (32) of port connection 'sendData' does not match port width (8) of module 'top' [/afs/ee.cooper.edu/user/l/lei.chi/oledControlTest/oledControlTest.srcs/sources_1/bd/oledSystem/ipshared/a13a/hdl/oledControl_v1_0_S00_AXI.v:439]
+INFO: [Synth 8-6155] done synthesizing module 'oledControl_v1_0_S00_AXI' (6#1) [/afs/ee.cooper.edu/user/l/lei.chi/oledControlTest/oledControlTest.srcs/sources_1/bd/oledSystem/ipshared/a13a/hdl/oledControl_v1_0_S00_AXI.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'oledControl_v1_0' (7#1) [/afs/ee.cooper.edu/user/l/lei.chi/oledControlTest/oledControlTest.srcs/sources_1/bd/oledSystem/ipshared/a13a/hdl/oledControl_v1_0.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'oledSystem_oledControl_0_0' (8#1) [/afs/ee.cooper.edu/user/l/lei.chi/oledControlTest/oledControlTest.srcs/sources_1/bd/oledSystem/ip/oledSystem_oledControl_0_0/synth/oledSystem_oledControl_0_0.v:56]
+WARNING: [Synth 8-3331] design top has unconnected port sendData[7]
+WARNING: [Synth 8-3331] design oledControl_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[2]
+WARNING: [Synth 8-3331] design oledControl_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[1]
+WARNING: [Synth 8-3331] design oledControl_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[0]
+WARNING: [Synth 8-3331] design oledControl_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[2]
+WARNING: [Synth 8-3331] design oledControl_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[1]
+WARNING: [Synth 8-3331] design oledControl_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1720.598 ; gain = 209.406 ; free physical = 1691 ; free virtual = 21429
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1726.535 ; gain = 215.344 ; free physical = 1754 ; free virtual = 21494
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1726.535 ; gain = 215.344 ; free physical = 1754 ; free virtual = 21493
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1896.285 ; gain = 0.000 ; free physical = 1508 ; free virtual = 21246
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.07 ; elapsed = 00:00:00.09 . Memory (MB): peak = 1899.254 ; gain = 2.969 ; free physical = 1463 ; free virtual = 21201
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1899.254 ; gain = 388.062 ; free physical = 1653 ; free virtual = 21386
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1899.254 ; gain = 388.062 ; free physical = 1653 ; free virtual = 21386
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1899.254 ; gain = 388.062 ; free physical = 1653 ; free virtual = 21386
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'spiControl'
+INFO: [Synth 8-5546] ROM "mem" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                             0001 |                               00
+                    SEND |                             0010 |                               01
+                    DONE |                             0100 |                               10
+                  iSTATE |                             1000 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'spiControl'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1899.254 ; gain = 388.062 ; free physical = 1644 ; free virtual = 21381
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 2     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 5     
+	                8 Bit    Registers := 3     
+	                5 Bit    Registers := 2     
+	                4 Bit    Registers := 3     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 18    
++---Muxes : 
+	 129 Input     64 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 8     
+	   4 Input     32 Bit        Muxes := 1     
+	   4 Input      8 Bit        Muxes := 1     
+	  24 Input      8 Bit        Muxes := 1     
+	  25 Input      5 Bit        Muxes := 1     
+	   5 Input      5 Bit        Muxes := 1     
+	   3 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	  24 Input      4 Bit        Muxes := 1     
+	   4 Input      3 Bit        Muxes := 1     
+	  24 Input      3 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 11    
+	   4 Input      1 Bit        Muxes := 4     
+	  24 Input      1 Bit        Muxes := 11    
+	   6 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module delayGen 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module spiControl 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 2     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                3 Bit    Registers := 2     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   4 Input      8 Bit        Muxes := 1     
+	   3 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   4 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+	   4 Input      1 Bit        Muxes := 4     
+Module charROM 
+Detailed RTL Component Info : 
++---Muxes : 
+	 129 Input     64 Bit        Muxes := 1     
+Module oledControl 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 2     
+	                5 Bit    Registers := 2     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 7     
++---Muxes : 
+	  24 Input      8 Bit        Muxes := 1     
+	  25 Input      5 Bit        Muxes := 1     
+	   5 Input      5 Bit        Muxes := 1     
+	  24 Input      4 Bit        Muxes := 1     
+	  24 Input      3 Bit        Muxes := 2     
+	  24 Input      1 Bit        Muxes := 11    
+	   2 Input      1 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 1     
+Module oledControl_v1_0_S00_AXI 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 5     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 8     
+	   4 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 8     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3331] design oledSystem_oledControl_0_0 has unconnected port s00_axi_awprot[2]
+WARNING: [Synth 8-3331] design oledSystem_oledControl_0_0 has unconnected port s00_axi_awprot[1]
+WARNING: [Synth 8-3331] design oledSystem_oledControl_0_0 has unconnected port s00_axi_awprot[0]
+WARNING: [Synth 8-3331] design oledSystem_oledControl_0_0 has unconnected port s00_axi_arprot[2]
+WARNING: [Synth 8-3331] design oledSystem_oledControl_0_0 has unconnected port s00_axi_arprot[1]
+WARNING: [Synth 8-3331] design oledSystem_oledControl_0_0 has unconnected port s00_axi_arprot[0]
+INFO: [Synth 8-3886] merging instance 'inst/oledControl_v1_0_S00_AXI_inst/axi_rresp_reg[0]' (FDRE) to 'inst/oledControl_v1_0_S00_AXI_inst/axi_rresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst/oledControl_v1_0_S00_AXI_inst/axi_rresp_reg[1] )
+INFO: [Synth 8-3886] merging instance 'inst/oledControl_v1_0_S00_AXI_inst/axi_bresp_reg[0]' (FDRE) to 'inst/oledControl_v1_0_S00_AXI_inst/axi_bresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst/oledControl_v1_0_S00_AXI_inst/axi_bresp_reg[1] )
+INFO: [Synth 8-3332] Sequential element (inst/oledControl_v1_0_S00_AXI_inst/oledTop/OC/SC/FSM_onehot_state_reg[3]) is unused and will be removed from module oledSystem_oledControl_0_0.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 1899.254 ; gain = 388.062 ; free physical = 1511 ; free virtual = 21263
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++---------------------------+-------------------------------------------------------+---------------+----------------+
+|Module Name                | RTL Object                                            | Depth x Width | Implemented As | 
++---------------------------+-------------------------------------------------------+---------------+----------------+
+|oledControl                | spiData                                               | 32x1          | LUT            | 
+|oledSystem_oledControl_0_0 | inst/oledControl_v1_0_S00_AXI_inst/oledTop/OC/spiData | 32x1          | LUT            | 
++---------------------------+-------------------------------------------------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 1899.254 ; gain = 388.062 ; free physical = 1110 ; free virtual = 20862
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 1899.254 ; gain = 388.062 ; free physical = 1107 ; free virtual = 20859
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 1899.254 ; gain = 388.062 ; free physical = 1103 ; free virtual = 20855
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 1899.254 ; gain = 388.062 ; free physical = 1109 ; free virtual = 20856
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 1899.254 ; gain = 388.062 ; free physical = 1115 ; free virtual = 20861
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 1899.254 ; gain = 388.062 ; free physical = 1130 ; free virtual = 20877
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 1899.254 ; gain = 388.062 ; free physical = 1133 ; free virtual = 20879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 1899.254 ; gain = 388.062 ; free physical = 1143 ; free virtual = 20889
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 1899.254 ; gain = 388.062 ; free physical = 1145 ; free virtual = 20891
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |     5|
+|2     |LUT1   |     3|
+|3     |LUT2   |    16|
+|4     |LUT3   |    28|
+|5     |LUT4   |    27|
+|6     |LUT5   |    29|
+|7     |LUT6   |   182|
+|8     |MUXF7  |    43|
+|9     |MUXF8  |     4|
+|10    |FDRE   |   242|
+|11    |FDSE   |     7|
++------+-------+------+
+
+Report Instance Areas: 
++------+----------------------------------+-------------------------+------+
+|      |Instance                          |Module                   |Cells |
++------+----------------------------------+-------------------------+------+
+|1     |top                               |                         |   586|
+|2     |  inst                            |oledControl_v1_0         |   586|
+|3     |    oledControl_v1_0_S00_AXI_inst |oledControl_v1_0_S00_AXI |   586|
+|4     |      oledTop                     |top                      |   362|
+|5     |        OC                        |oledControl              |   362|
+|6     |          CR                      |charROM                  |   141|
+|7     |          DG                      |delayGen                 |    33|
+|8     |          SC                      |spiControl               |    54|
++------+----------------------------------+-------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 1899.254 ; gain = 388.062 ; free physical = 1148 ; free virtual = 20894
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 6 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 1899.254 ; gain = 215.344 ; free physical = 1298 ; free virtual = 21044
+Synthesis Optimization Complete : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 1899.254 ; gain = 388.062 ; free physical = 1824 ; free virtual = 21571
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 52 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1899.254 ; gain = 0.000 ; free physical = 1767 ; free virtual = 21513
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+41 Infos, 16 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 1899.254 ; gain = 536.664 ; free physical = 1868 ; free virtual = 21614
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1899.254 ; gain = 0.000 ; free physical = 1868 ; free virtual = 21614
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/afs/ee.cooper.edu/user/l/lei.chi/oledControlTest/oledControlTest.runs/oledSystem_oledControl_0_0_synth_1/oledSystem_oledControl_0_0.dcp' has been generated.
+WARNING: [Common 17-576] 'use_project_ipc' is deprecated. This option is deprecated and no longer used.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP oledSystem_oledControl_0_0, cache-ID = 2658e5dcd65a2660
+INFO: [Coretcl 2-1174] Renamed 7 cell refs.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1923.266 ; gain = 0.000 ; free physical = 2052 ; free virtual = 21800
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/afs/ee.cooper.edu/user/l/lei.chi/oledControlTest/oledControlTest.runs/oledSystem_oledControl_0_0_synth_1/oledSystem_oledControl_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file oledSystem_oledControl_0_0_utilization_synth.rpt -pb oledSystem_oledControl_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Nov 16 18:00:33 2023...

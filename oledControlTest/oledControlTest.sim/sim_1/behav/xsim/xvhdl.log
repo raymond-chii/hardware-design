@@ -1,0 +1,2 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/afs/ee.cooper.edu/user/l/lei.chi/oledControlTest/oledControlTest.ip_user_files/bd/oledSystem/ip/oledSystem_rst_ps7_0_100M_0/sim/oledSystem_rst_ps7_0_100M_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'oledSystem_rst_ps7_0_100M_0'

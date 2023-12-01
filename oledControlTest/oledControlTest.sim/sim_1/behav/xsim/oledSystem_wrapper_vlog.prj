@@ -1,0 +1,20 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../oledControlTest.srcs/sources_1/bd/oledSystem/ipshared/ec67/hdl" --include "../../../../oledControlTest.srcs/sources_1/bd/oledSystem/ipshared/8c62/hdl" --include "/opt/xilinx/Vivado/2019.1/data/xilinx_vip/include" \
+"../../../../oledControlTest.ip_user_files/bd/oledSystem/ip/oledSystem_processing_system7_0_0/sim/oledSystem_processing_system7_0_0.v" \
+"../../../../oledControlTest.ip_user_files/bd/oledSystem/ipshared/a13a/src/charROM.v" \
+"../../../../oledControlTest.ip_user_files/bd/oledSystem/ipshared/a13a/src/delayGen.v" \
+"../../../../oledControlTest.ip_user_files/bd/oledSystem/ipshared/a13a/src/oledControl.v" \
+"../../../../oledControlTest.ip_user_files/bd/oledSystem/ipshared/a13a/hdl/oledControl_v1_0_S00_AXI.v" \
+"../../../../oledControlTest.ip_user_files/bd/oledSystem/ipshared/a13a/src/spiControl.v" \
+"../../../../oledControlTest.ip_user_files/bd/oledSystem/ipshared/a13a/src/top.v" \
+"../../../../oledControlTest.ip_user_files/bd/oledSystem/ipshared/a13a/hdl/oledControl_v1_0.v" \
+"../../../../oledControlTest.ip_user_files/bd/oledSystem/ip/oledSystem_oledControl_0_0/sim/oledSystem_oledControl_0_0.v" \
+"../../../../oledControlTest.ip_user_files/bd/oledSystem/ip/oledSystem_auto_pc_0/sim/oledSystem_auto_pc_0.v" \
+"../../../../oledControlTest.ip_user_files/bd/oledSystem/sim/oledSystem.v" \
+"../../../../oledControlTest.srcs/sources_1/bd/oledSystem/hdl/oledSystem_wrapper.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,31 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/afs/ee.cooper.edu/user/l/lei.chi/oledControlTest/oledControlTest.ip_user_files/bd/oledSystem/ip/oledSystem_processing_system7_0_0/sim/oledSystem_processing_system7_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module oledSystem_processing_system7_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/afs/ee.cooper.edu/user/l/lei.chi/oledControlTest/oledControlTest.ip_user_files/bd/oledSystem/ipshared/a13a/src/charROM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module charROM
+INFO: [VRFC 10-2263] Analyzing Verilog file "/afs/ee.cooper.edu/user/l/lei.chi/oledControlTest/oledControlTest.ip_user_files/bd/oledSystem/ipshared/a13a/src/delayGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module delayGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "/afs/ee.cooper.edu/user/l/lei.chi/oledControlTest/oledControlTest.ip_user_files/bd/oledSystem/ipshared/a13a/src/oledControl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module oledControl
+INFO: [VRFC 10-2263] Analyzing Verilog file "/afs/ee.cooper.edu/user/l/lei.chi/oledControlTest/oledControlTest.ip_user_files/bd/oledSystem/ipshared/a13a/hdl/oledControl_v1_0_S00_AXI.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module oledControl_v1_0_S00_AXI
+INFO: [VRFC 10-2458] undeclared symbol sendDone, assumed default net type wire [/afs/ee.cooper.edu/user/l/lei.chi/oledControlTest/oledControlTest.ip_user_files/bd/oledSystem/ipshared/a13a/hdl/oledControl_v1_0_S00_AXI.v:441]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/afs/ee.cooper.edu/user/l/lei.chi/oledControlTest/oledControlTest.ip_user_files/bd/oledSystem/ipshared/a13a/src/spiControl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spiControl
+INFO: [VRFC 10-2263] Analyzing Verilog file "/afs/ee.cooper.edu/user/l/lei.chi/oledControlTest/oledControlTest.ip_user_files/bd/oledSystem/ipshared/a13a/src/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "/afs/ee.cooper.edu/user/l/lei.chi/oledControlTest/oledControlTest.ip_user_files/bd/oledSystem/ipshared/a13a/hdl/oledControl_v1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module oledControl_v1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/afs/ee.cooper.edu/user/l/lei.chi/oledControlTest/oledControlTest.ip_user_files/bd/oledSystem/ip/oledSystem_oledControl_0_0/sim/oledSystem_oledControl_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module oledSystem_oledControl_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/afs/ee.cooper.edu/user/l/lei.chi/oledControlTest/oledControlTest.ip_user_files/bd/oledSystem/ip/oledSystem_auto_pc_0/sim/oledSystem_auto_pc_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module oledSystem_auto_pc_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/afs/ee.cooper.edu/user/l/lei.chi/oledControlTest/oledControlTest.ip_user_files/bd/oledSystem/sim/oledSystem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module oledSystem
+INFO: [VRFC 10-311] analyzing module oledSystem_ps7_0_axi_periph_0
+INFO: [VRFC 10-311] analyzing module s00_couplers_imp_LO45TJ
+INFO: [VRFC 10-2263] Analyzing Verilog file "/afs/ee.cooper.edu/user/l/lei.chi/oledControlTest/oledControlTest.srcs/sources_1/bd/oledSystem/hdl/oledSystem_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module oledSystem_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "/afs/ee.cooper.edu/user/l/lei.chi/oledControlTest/oledControlTest.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-163] Analyzing VHDL file "/afs/ee.cooper.edu/user/l/lei.chi/oledControlTest/oledControlTest.ip_user_files/bd/oledSystem/ip/oledSystem_rst_ps7_0_100M_0/sim/oledSystem_rst_ps7_0_100M_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'oledSystem_rst_ps7_0_100M_0'

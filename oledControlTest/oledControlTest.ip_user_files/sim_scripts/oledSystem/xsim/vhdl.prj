@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../bd/oledSystem/ip/oledSystem_rst_ps7_0_100M_0/sim/oledSystem_rst_ps7_0_100M_0.vhd" \
+
+nosort

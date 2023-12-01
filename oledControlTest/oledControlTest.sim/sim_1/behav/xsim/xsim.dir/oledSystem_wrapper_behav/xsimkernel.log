@@ -1,0 +1,7 @@
+Running: xsim.dir/oledSystem_wrapper_behav/xsimk -simmode gui -wdb oledSystem_wrapper_behav.wdb -simrunnum 0 -socket 48549
+Design successfully loaded
+Design Loading Memory Usage: 52468 KB (Peak: 52468 KB)
+Design Loading CPU Usage: 50 ms
+Simulation completed
+Simulation Memory Usage: 137636 KB (Peak: 191736 KB)
+Simulation CPU Usage: 50 ms

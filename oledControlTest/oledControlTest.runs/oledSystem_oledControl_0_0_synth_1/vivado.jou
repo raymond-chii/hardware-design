@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Nov 16 18:00:04 2023
+# Process ID: 18788
+# Current directory: /afs/ee.cooper.edu/user/l/lei.chi/oledControlTest/oledControlTest.runs/oledSystem_oledControl_0_0_synth_1
+# Command line: vivado -log oledSystem_oledControl_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source oledSystem_oledControl_0_0.tcl
+# Log file: /afs/ee.cooper.edu/user/l/lei.chi/oledControlTest/oledControlTest.runs/oledSystem_oledControl_0_0_synth_1/oledSystem_oledControl_0_0.vds
+# Journal file: /afs/ee.cooper.edu/user/l/lei.chi/oledControlTest/oledControlTest.runs/oledSystem_oledControl_0_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source oledSystem_oledControl_0_0.tcl -notrace

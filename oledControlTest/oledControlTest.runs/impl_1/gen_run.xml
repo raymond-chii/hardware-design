@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z020clg484-1" LaunchTime="1700178971">
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="BG-DRC" Name="oledSystem_wrapper.drc"/>
+  <File Type="BG-BGN" Name="oledSystem_wrapper.bgn"/>
+  <File Type="BITSTR-SYSDEF" Name="oledSystem_wrapper.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="oledSystem_wrapper.ltx"/>
+  <File Type="BITSTR-MMI" Name="oledSystem_wrapper.mmi"/>
+  <File Type="BITSTR-BMM" Name="oledSystem_wrapper_bd.bmm"/>
+  <File Type="BITSTR-NKY" Name="oledSystem_wrapper.nky"/>
+  <File Type="BITSTR-RBT" Name="oledSystem_wrapper.rbt"/>
+  <File Type="BITSTR-MSK" Name="oledSystem_wrapper.msk"/>
+  <File Type="BG-BIN" Name="oledSystem_wrapper.bin"/>
+  <File Type="BG-BIT" Name="oledSystem_wrapper.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="oledSystem_wrapper_bus_skew_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="oledSystem_wrapper_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="oledSystem_wrapper_bus_skew_postroute_physopted.rpt"/>
+  <File Type="RDI-RDI" Name="oledSystem_wrapper.vdi"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="oledSystem_wrapper_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="oledSystem_wrapper_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="oledSystem_wrapper_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="oledSystem_wrapper_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="oledSystem_wrapper_postroute_physopt.dcp"/>
+  <File Type="ROUTE-BUS-SKEW" Name="oledSystem_wrapper_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="oledSystem_wrapper_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-SIMILARITY" Name="oledSystem_wrapper_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="oledSystem_wrapper_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-TIMING-PB" Name="oledSystem_wrapper_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="oledSystem_wrapper_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="oledSystem_wrapper_route_status.pb"/>
+  <File Type="ROUTE-STATUS" Name="oledSystem_wrapper_route_status.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="oledSystem_wrapper_power_routed.rpx"/>
+  <File Type="ROUTE-PWR-SUM" Name="oledSystem_wrapper_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="oledSystem_wrapper_power_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="oledSystem_wrapper_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="oledSystem_wrapper_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="oledSystem_wrapper_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="oledSystem_wrapper_drc_routed.rpx"/>
+  <File Type="ROUTE-DRC-PB" Name="oledSystem_wrapper_drc_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="oledSystem_wrapper_drc_routed.rpt"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="oledSystem_wrapper_routed_bb.dcp"/>
+  <File Type="ROUTE-DCP" Name="oledSystem_wrapper_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="oledSystem_wrapper_routed_error.dcp"/>
+  <File Type="PHYSOPT-TIMING" Name="oledSystem_wrapper_timing_summary_physopted.rpt"/>
+  <File Type="PHYSOPT-DRC" Name="oledSystem_wrapper_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="oledSystem_wrapper_physopt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="oledSystem_wrapper_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="oledSystem_wrapper_postplace_pwropt.dcp"/>
+  <File Type="PLACE-TIMING" Name="oledSystem_wrapper_timing_summary_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="oledSystem_wrapper_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="oledSystem_wrapper_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-CTRL" Name="oledSystem_wrapper_control_sets_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="oledSystem_wrapper_utilization_placed.pb"/>
+  <File Type="PLACE-UTIL" Name="oledSystem_wrapper_utilization_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="oledSystem_wrapper_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-IO" Name="oledSystem_wrapper_io_placed.rpt"/>
+  <File Type="PLACE-DCP" Name="oledSystem_wrapper_placed.dcp"/>
+  <File Type="PWROPT-TIMING" Name="oledSystem_wrapper_timing_summary_pwropted.rpt"/>
+  <File Type="PWROPT-DRC" Name="oledSystem_wrapper_drc_pwropted.rpt"/>
+  <File Type="PWROPT-DCP" Name="oledSystem_wrapper_pwropt.dcp"/>
+  <File Type="OPT-TIMING" Name="oledSystem_wrapper_timing_summary_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="oledSystem_wrapper.hwdef"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="oledSystem_wrapper_methodology_drc_opted.rpt"/>
+  <File Type="OPT-DRC" Name="oledSystem_wrapper_drc_opted.rpt"/>
+  <File Type="OPT-DCP" Name="oledSystem_wrapper_opt.dcp"/>
+  <File Type="INIT-TIMING" Name="oledSystem_wrapper_timing_summary_init.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="oledSystem_wrapper_bus_skew_routed.rpx"/>
+  <File Type="REPORTS-TCL" Name="oledSystem_wrapper_reports.tcl"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="oledSystem_wrapper_bus_skew_routed.pb"/>
+  <File Type="PA-TCL" Name="oledSystem_wrapper.tcl"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/bd/oledSystem/oledSystem.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/oledSystem/hdl/oledSystem_wrapper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="oledSystem_wrapper"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/oledConstraints.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="oledSystem_rst_ps7_0_100M_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="oledSystem_auto_pc_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="oledSystem_oledControl_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="oledSystem_processing_system7_0_0"/>
+</GenRun>
